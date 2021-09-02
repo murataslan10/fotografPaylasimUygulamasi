@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61CD7AEDD61CD156095FC61E /* Pods_FotografPaylasmaUygulamasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAECD297D08A5A0C711A777 /* Pods_FotografPaylasmaUygulamasi.framework */; };
+		E228EA7326CFC721005A0870 /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228EA7226CFC721005A0870 /* feedCell.swift */; };
 		E2545CFE26CD204D002D37C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2545CFD26CD204D002D37C1 /* AppDelegate.swift */; };
 		E2545D0026CD204D002D37C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2545CFF26CD204D002D37C1 /* SceneDelegate.swift */; };
 		E2545D0226CD204D002D37C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2545D0126CD204D002D37C1 /* ViewController.swift */; };
 		E2545D0526CD204D002D37C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2545D0326CD204D002D37C1 /* Main.storyboard */; };
 		E2545D0726CD2050002D37C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2545D0626CD2050002D37C1 /* Assets.xcassets */; };
 		E2545D0A26CD2050002D37C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2545D0826CD2050002D37C1 /* LaunchScreen.storyboard */; };
+		E2545D1326CD225B002D37C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2545D1226CD225B002D37C1 /* GoogleService-Info.plist */; };
+		E2545D3B26CD4446002D37C1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2545D3A26CD4446002D37C1 /* SettingsViewController.swift */; };
+		E2545D4026CD449A002D37C1 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2545D3F26CD449A002D37C1 /* UploadViewController.swift */; };
+		E2545D4326CD44B7002D37C1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2545D4226CD44B7002D37C1 /* FeedViewController.swift */; };
+		E2CF3F6526D3B401009F8544 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF3F6426D3B401009F8544 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DAECD297D08A5A0C711A777 /* Pods_FotografPaylasmaUygulamasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotografPaylasmaUygulamasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE41F42F577968E49FB9AF2 /* Pods-FotografPaylasmaUygulamasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotografPaylasmaUygulamasi.debug.xcconfig"; path = "Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi.debug.xcconfig"; sourceTree = "<group>"; };
+		58AE01260A2CDC77F3DA841C /* Pods-FotografPaylasmaUygulamasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotografPaylasmaUygulamasi.release.xcconfig"; path = "Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi.release.xcconfig"; sourceTree = "<group>"; };
+		E228EA7226CFC721005A0870 /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
 		E2545CFA26CD204C002D37C1 /* FotografPaylasmaUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotografPaylasmaUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2545CFD26CD204D002D37C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2545CFF26CD204D002D37C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		E2545D0626CD2050002D37C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2545D0926CD2050002D37C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2545D0B26CD2050002D37C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2545D1226CD225B002D37C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2545D3A26CD4446002D37C1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E2545D3F26CD449A002D37C1 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		E2545D4226CD44B7002D37C1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E2CF3F6426D3B401009F8544 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CD7AEDD61CD156095FC61E /* Pods_FotografPaylasmaUygulamasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		552770AE5C94FDE7C2E7F375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAECD297D08A5A0C711A777 /* Pods_FotografPaylasmaUygulamasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A7E9B6D01F3FBA3F2E8DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE41F42F577968E49FB9AF2 /* Pods-FotografPaylasmaUygulamasi.debug.xcconfig */,
+				58AE01260A2CDC77F3DA841C /* Pods-FotografPaylasmaUygulamasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E2545CF126CD204C002D37C1 = {
 			isa = PBXGroup;
 			children = (
 				E2545CFC26CD204D002D37C1 /* FotografPaylasmaUygulamasi */,
 				E2545CFB26CD204C002D37C1 /* Products */,
+				B2A7E9B6D01F3FBA3F2E8DCD /* Pods */,
+				552770AE5C94FDE7C2E7F375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +92,18 @@
 		E2545CFC26CD204D002D37C1 /* FotografPaylasmaUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
+				E2545D1226CD225B002D37C1 /* GoogleService-Info.plist */,
 				E2545CFD26CD204D002D37C1 /* AppDelegate.swift */,
 				E2545CFF26CD204D002D37C1 /* SceneDelegate.swift */,
+				E2545D3A26CD4446002D37C1 /* SettingsViewController.swift */,
+				E2545D4226CD44B7002D37C1 /* FeedViewController.swift */,
+				E228EA7226CFC721005A0870 /* feedCell.swift */,
+				E2545D3F26CD449A002D37C1 /* UploadViewController.swift */,
 				E2545D0126CD204D002D37C1 /* ViewController.swift */,
+				E2CF3F6426D3B401009F8544 /* Post.swift */,
 				E2545D0326CD204D002D37C1 /* Main.storyboard */,
-				E2545D0626CD2050002D37C1 /* Assets.xcassets */,
 				E2545D0826CD2050002D37C1 /* LaunchScreen.storyboard */,
+				E2545D0626CD2050002D37C1 /* Assets.xcassets */,
 				E2545D0B26CD2050002D37C1 /* Info.plist */,
 			);
 			path = FotografPaylasmaUygulamasi;
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2545D0E26CD2050002D37C1 /* Build configuration list for PBXNativeTarget "FotografPaylasmaUygulamasi" */;
 			buildPhases = (
+				26457EE7C614976464F5C44B /* [CP] Check Pods Manifest.lock */,
 				E2545CF626CD204C002D37C1 /* Sources */,
 				E2545CF726CD204C002D37C1 /* Frameworks */,
 				E2545CF826CD204C002D37C1 /* Resources */,
+				FFA6A1444AD2B0035C5A4EEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2545D0A26CD2050002D37C1 /* LaunchScreen.storyboard in Resources */,
+				E2545D1326CD225B002D37C1 /* GoogleService-Info.plist in Resources */,
 				E2545D0726CD2050002D37C1 /* Assets.xcassets in Resources */,
 				E2545D0526CD204D002D37C1 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +177,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26457EE7C614976464F5C44B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotografPaylasmaUygulamasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA6A1444AD2B0035C5A4EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaUygulamasi/Pods-FotografPaylasmaUygulamasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2545CF626CD204C002D37C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2545D0226CD204D002D37C1 /* ViewController.swift in Sources */,
+				E228EA7326CFC721005A0870 /* feedCell.swift in Sources */,
+				E2545D4026CD449A002D37C1 /* UploadViewController.swift in Sources */,
+				E2CF3F6526D3B401009F8544 /* Post.swift in Sources */,
 				E2545CFE26CD204D002D37C1 /* AppDelegate.swift in Sources */,
 				E2545D0026CD204D002D37C1 /* SceneDelegate.swift in Sources */,
+				E2545D4326CD44B7002D37C1 /* FeedViewController.swift in Sources */,
+				E2545D3B26CD4446002D37C1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +375,7 @@
 		};
 		E2545D0F26CD2050002D37C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE41F42F577968E49FB9AF2 /* Pods-FotografPaylasmaUygulamasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +395,7 @@
 		};
 		E2545D1026CD2050002D37C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AE01260A2CDC77F3DA841C /* Pods-FotografPaylasmaUygulamasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

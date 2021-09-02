@@ -1,11 +1,12 @@
 //
-//  SceneDelegate.swift
-//  FotografPaylasmaUygulamasi
+//  4- Kayitli kullanici animsaticisi
 //
-//  Created by Merve dalbeler on 18.08.2021.
+//
+//
 //
 
 import UIKit
+import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,6 +17,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        let guncelKullanici = Auth.auth().currentUser  // 4. gecmis kullaniciyi degiskene atadik
+        
+        if guncelKullanici != nil {   // 4. degisken nil ile esit degil ise
+            let board = UIStoryboard(name: "Main", bundle: nil)  // 4. storyboard degiskene atadik
+            let tebBar = board.instantiateViewController(identifier: "tabBar") as! UITabBarController  // 4. StoryBoard'dan tabbar'i cast edip degiskene atadik
+            window?.rootViewController = tebBar  // 4. ilk VC tab bar'a isaretliyorum
+        }
+        
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
